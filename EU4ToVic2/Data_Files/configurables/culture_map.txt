@@ -179,8 +179,8 @@ link = { vic2 = afer eu4 = chadian }
 link = { vic2 = latin eu4 = roman eu4 = latin_colonial } #Should be only Italy, but who can be sure?
 
 # Punic
-link = { vic2 = punic_american eu4 = carthaginian eu4 = ythalonim eu4 = phoenician eu4 = ualonuth eu4 = sicorathi eu4 = symacom eu4 = ysthyalm eu4 = sythchy eu4 = ynnocho eu4 = mlachthi eu4 = inythmum eu4 = gadolite eu4 = bythlimmoth eu4 = sidonian eu4 = taliaite eu4 = lacanite eu4 = epicrateian eu4 = pmpese eu4 = ythbynuthi eu4 = ychibarku eu4 = liphocaneth eu4 = mysehi region = central_america_superregion region = north_america_superregion region = south_america_superregion region = andes_superregion }
-link = { vic2 = punic_australian eu4 = carthaginian eu4 = ythalonim eu4 = phoenician eu4 = ualonuth eu4 = sicorathi eu4 = symacom eu4 = ysthyalm eu4 = sythchy eu4 = ynnocho eu4 = mlachthi eu4 = inythmum eu4 = gadolite eu4 = bythlimmoth eu4 = sidonian eu4 = taliaite eu4 = lacanite eu4 = epicrateian eu4 = pmpese eu4 = ythbynuthi eu4 = ychibarku eu4 = liphocaneth eu4 = mysehi region = oceania_superregion }
+link = { vic2 = punic_american eu4 = carthaginian eu4 = ythalonim eu4 = phoenician eu4 = ualonuth eu4 = sicorathi eu4 = symacom eu4 = ysthyalm eu4 = sythchy eu4 = ynnocho eu4 = mlachthi eu4 = inythmum eu4 = gadolite eu4 = bythlimmoth eu4 = sidonian eu4 = taliaite eu4 = lacanite eu4 = epicrateian eu4 = pmpese eu4 = ythbynuthi eu4 = ychibarku eu4 = liphocaneth eu4 = mysehi eu4 = alasiyan eu4 = ugaritic region = central_america_superregion region = north_america_superregion region = south_america_superregion region = andes_superregion }
+link = { vic2 = punic_australian eu4 = carthaginian eu4 = ythalonim eu4 = phoenician eu4 = ualonuth eu4 = sicorathi eu4 = symacom eu4 = ysthyalm eu4 = sythchy eu4 = ynnocho eu4 = mlachthi eu4 = inythmum eu4 = gadolite eu4 = bythlimmoth eu4 = sidonian eu4 = taliaite eu4 = lacanite eu4 = epicrateian eu4 = pmpese eu4 = ythbynuthi eu4 = ychibarku eu4 = liphocaneth eu4 = mysehi eu4 = alasiyan eu4 = ugaritic region = oceania_superregion }
 link = { vic2 = carthaginian eu4 = carthaginian eu4 = punic }
 link = { vic2 = ythalonim eu4 = ythalonim }
 link = { vic2 = ualonuth eu4 = ualonuth }
@@ -204,6 +204,8 @@ link = { vic2 = liphocaneth eu4 = liphocaneth }
 link = { vic2 = mysehi eu4 = mysehi }
 link = { vic2 = phoenician eu4 = phoenician }
 link = { vic2 = neo_hyksos eu4 = neo_hyksos }
+link = { vic2 = alasiyan eu4 = alasiyan }
+link = { vic2 = ugaritic eu4 = ugaritic }
 
 # Varangian
 link = { vic2 = varangian_american eu4 = miklagardrian eu4 = varangian eu4 = mena_german region = central_america_superregion region = north_america_superregion region = south_america_superregion region = andes_superregion }
@@ -222,11 +224,13 @@ link = { vic2 = spaniolic eu4 = spanish_greek }
 link = { vic2 = galatian eu4 = gaulish_greek } #This mapping is not for Galatian Celts, who use galatian_celtic instead
 
 # Hittite
-link = { vic2 = hittite_american eu4 = luwian eu4 = lydian eu4 = lycian eu4 = hittite eu4 = phrygian eu4 = isaurian eu4 = paphlagonian region = central_america_superregion region = north_america_superregion region = south_america_superregion region = andes_superregion }
-link = { vic2 = hittite_australian eu4 = luwian eu4 = lydian eu4 = lycian eu4 = hittite eu4 = phrygian eu4 = isaurian eu4 = paphlagonian region = oceania_superregion }
+link = { vic2 = hittite_american eu4 = luwian eu4 = lydian eu4 = lycian eu4 = hittite eu4 = phrygian eu4 = isaurian eu4 = paphlagonian eu4 = trojan eu4 = kizzuwatnan region = central_america_superregion region = north_america_superregion region = south_america_superregion region = andes_superregion }
+link = { vic2 = hittite_australian eu4 = luwian eu4 = lydian eu4 = lycian eu4 = hittite eu4 = phrygian eu4 = isaurian eu4 = paphlagonian eu4 = trojan eu4 = kizzuwatnan region = oceania_superregion }
 link = { vic2 = luwian eu4 = luwian eu4 = paphlagonian }
 link = { vic2 = lydian eu4 = lydian eu4 = lycian }
 link = { vic2 = hittite_g eu4 = hittite eu4 = cilician }
+link = { vic2 = trojan eu4 = trojan }
+link = { vic2 = kizzuwatnan eu4 = kizzuwatnan }
 
 #Colonial Italian
 link = { vic2 = italoamericano eu4 = ladin eu4 = dalmatian eu4 = old_lombard eu4 = tuscian eu4 = spoletan eu4 = beneventine eu4 = salernian eu4 = veronese eu4 = lombard eu4 = umbrian eu4 = piedmontese eu4 = ligurian eu4 = romagnan eu4 = tuscan eu4 = venetian eu4 = italian eu4 = etrurian eu4 = dalmatian eu4 = emilian eu4 = friulian eu4 = romagnol eu4 = neapolitan eu4 = sardinian eu4 = sicilian eu4 = corsican eu4 = c_latin eu4 = napolitan_colonial eu4 = maltese eu4 = africano eu4 = americano eu4 = asiatico eu4 = australiano eu4 = oltremare region = great_lakes_region region = northeast_america_region region = great_plains_region region = california_region }
@@ -458,13 +462,13 @@ link = { vic2 = esmer eu4 = gagauz eu4 = avar_culture eu4 = hephthalite eu4 = tu
 link = { vic2 = sephardic eu4 = georgian_new eu4 = hellenic eu4 = magnagreek eu4 = anatolian eu4 = greek eu4 = bithynian eu4 = lykian eu4 = georgian eu4 = armenian eu4 = goths eu4 = spartan eu4 = athenian eu4 = atlantean religion = jewish }
 link = { vic2 = greek eu4 = cappadocian_greek eu4 = griko eu4 = phrygian eu4 = isaurian eu4 = cypriot eu4 = cappadokian eu4 = maniot eu4 = peloponnesian eu4 = bithynian eu4 = lykian eu4 = greek eu4 = goths eu4 = pontic_greek eu4 = bactrian eu4 = histrian eu4 = leucaethiopian eu4 = ptolemaic eu4 = seleucian eu4 = tylosi eu4 = yavana eu4 = atlantean eu4 = spartan eu4 = athenian eu4 = cappadocian eu4 = galatian eu4 = greek_colonial eu4 = pontic eu4 = anatolian eu4 = psammodytes eu4 = mena_greek eu4 = hellenic }
 link = { vic2 = magnagreek eu4 = magnagreek eu4 = sicilian_greek eu4 = empurian eu4 = kyrenaikan eu4 = messalian eu4 = pulian eu4 = hellenistic }
-link = { vic2 = georgian eu4 = georgian_new eu4 = georgian eu4 = svanetian }
+link = { vic2 = georgian eu4 = georgian_new eu4 = georgian eu4 = svanetian eu4 = mingrelian }
 link = { vic2 = armenian eu4 = armenian eu4 = armenian_colonial eu4 = ge_armenian eu4 = owm_armenian}
-link = { hpm = dagestani eu4 = dagestani }
+link = { hpm = dagestani eu4 = dagestani eu4 = tsakhur eu4 = balkar }
 link = { hpm = chechen eu4 = chechen eu4 = avar_culture }
 link = { hpm = circassian eu4 = circassian }
-link = { vic2 = north_caucasian eu4 = circassian eu4 = dagestani eu4 = avar_culture eu4 = abazin eu4 = caucasian_albanian eu4 = caucasus_colonial eu4 = chechen eu4 = ossetian eu4 = abkhazian eu4 = karachay }
-link = { vic2 = caspian eu4 = caspian }
+link = { vic2 = north_caucasian eu4 = circassian eu4 = dagestani eu4 = avar_culture eu4 = abazin eu4 = caucasian_albanian eu4 = caucasus_colonial eu4 = chechen eu4 = ossetian eu4 = abkhazian eu4 = karachay eu4 = imeretian eu4 = laz_culture eu4 = dargin eu4 = ingush eu4 = lak_culture eu4 = tsez eu4 = udi_culture }
+link = { vic2 = caspian eu4 = caspian eu4 = gilaki }
 link = { vic2 = alan eu4 = alan eu4 = scythian eu4 = alan_culture eu4 = cimmerian }
 link = { vic2 = indo_scythian eu4 = indo_scythian }
 link = { vic2 = nemedian eu4 = nemedian }
@@ -477,16 +481,16 @@ link = { vic2 = thracian_african eu4 = thracian region = niger_region region = g
 link = { vic2 = thracian eu4 = thracian }
 
 # Iranian - persian, east_persian, baluchi
-link = { vic2 = dinajidad eu4 = turco_iranian eu4 = tajik eu4 = persian eu4 = saka eu4 = luri eu4 = khorasani eu4 = mervi eu4 = mazandarani eu4 = parthian eu4 = khuzi eu4 = lurish eu4 = persian eu4 = luri_colonial eu4 = qashqai eu4 = tabari eu4 = scythian eu4 = sarmatian eu4 = iazyges eu4 = uzbek eu4 = uzbehk eu4 = karluk eu4 = khazak eu4 = kirgiz eu4 = kirghiz eu4 = old_kirgiz eu4 = sogdian eu4 = tocharian eu4 = tajihk eu4 = uyghur eu4 = old_uyghur eu4 = east_persian eu4 = afghani eu4 = afghan eu4 = pashtun eu4 = kushan eu4 = baluchi eu4 = baloch eu4 = hazara eu4 = turkmeni eu4 = kurdish eu4 = gorani eu4 = tartar eu4 = bolghar eu4 = cuman eu4 = avar eu4 = khazar eu4 = astrakhani eu4 = bashkir eu4 = crimean eu4 = kazani eu4 = mishary eu4 = nogaybak eu4 = qasim eu4 = avar eu4 = chaghatai eu4 = mishar eu4 = nogai eu4 = tartar_colonial eu4 = hunnic eu4 = sinoturk region = south_america_superregion region = andes_superregion region = north_america_superregion region = central_america_superregion }
-link = { vic2 = janub eu4 = turco_iranian eu4 = tajik eu4 = persian eu4 = saka eu4 = luri eu4 = khorasani eu4 = mervi eu4 = mazandarani eu4 = parthian eu4 = khuzi eu4 = lurish eu4 = persian eu4 = luri_colonial eu4 = qashqai eu4 = tabari eu4 = scythian eu4 = sarmatian eu4 = iazyges eu4 = uzbek eu4 = uzbehk eu4 = karluk eu4 = khazak eu4 = kirgiz eu4 = kirghiz eu4 = old_kirgiz eu4 = sogdian eu4 = tocharian eu4 = tajihk eu4 = uyghur eu4 = old_uyghur eu4 = east_persian eu4 = afghani eu4 = afghan eu4 = pashtun eu4 = kushan eu4 = baluchi eu4 = baloch eu4 = hazara eu4 = turkmeni eu4 = kurdish eu4 = gorani eu4 = tartar eu4 = bolghar eu4 = cuman eu4 = avar eu4 = khazar eu4 = astrakhani eu4 = bashkir eu4 = crimean eu4 = kazani eu4 = mishary eu4 = nogaybak eu4 = qasim eu4 = avar eu4 = chaghatai eu4 = mishar eu4 = nogai eu4 = tartar_colonial eu4 = hunnic eu4 = sinoturk region = oceania_superregion }
-link = { vic2 = saahi eu4 = turco_iranian eu4 = tajik eu4 = persian eu4 = saka eu4 = luri eu4 = khorasani eu4 = mervi eu4 = mazandarani eu4 = parthian eu4 = khuzi eu4 = lurish eu4 = persian eu4 = luri_colonial eu4 = qashqai eu4 = tabari eu4 = scythian eu4 = sarmatian eu4 = iazyges eu4 = uzbek eu4 = uzbehk eu4 = karluk eu4 = khazak eu4 = kirgiz eu4 = kirghiz eu4 = old_kirgiz eu4 = sogdian eu4 = tocharian eu4 = tajihk eu4 = uyghur eu4 = old_uyghur eu4 = east_persian eu4 = afghani eu4 = afghan eu4 = pashtun eu4 = kushan eu4 = baluchi eu4 = baloch eu4 = hazara eu4 = turkmeni eu4 = kurdish eu4 = gorani eu4 = tartar eu4 = bolghar eu4 = cuman eu4 = avar eu4 = khazar eu4 = astrakhani eu4 = bashkir eu4 = crimean eu4 = kazani eu4 = mishary eu4 = nogaybak eu4 = qasim eu4 = avar eu4 = chaghatai eu4 = mishar eu4 = nogai eu4 = tartar_colonial eu4 = hunnic eu4 = sinoturk region = niger_region region = guinea_region region = central_africa_region region = sahel_region region = horn_of_africa_region region = east_africa_region region = kongo_region region = south_africa_region }
+link = { vic2 = dinajidad eu4 = turco_iranian eu4 = tajik eu4 = persian eu4 = saka eu4 = luri eu4 = bakhtiari eu4 = khorasani eu4 = mervi eu4 = mazandarani eu4 = parthian eu4 = khuzi eu4 = lurish eu4 = persian eu4 = luri_colonial eu4 = qashqai eu4 = tabari eu4 = scythian eu4 = sarmatian eu4 = iazyges eu4 = uzbek eu4 = uzbehk eu4 = karluk eu4 = khazak eu4 = kirgiz eu4 = kirghiz eu4 = old_kirgiz eu4 = sogdian eu4 = tocharian eu4 = tajihk eu4 = uyghur eu4 = old_uyghur eu4 = east_persian eu4 = afghani eu4 = afghan eu4 = pashtun eu4 = kushan eu4 = baluchi eu4 = baloch eu4 = hazara eu4 = turkmeni eu4 = kurdish eu4 = sorani eu4 = shabankara eu4 = laki eu4 = kalhuri eu4 = gorani eu4 = tartar eu4 = bolghar eu4 = cuman eu4 = avar eu4 = khazar eu4 = astrakhani eu4 = bashkir eu4 = crimean eu4 = kazani eu4 = mishary eu4 = nogaybak eu4 = qasim eu4 = avar eu4 = chaghatai eu4 = mishar eu4 = nogai eu4 = tartar_colonial eu4 = hunnic eu4 = sinoturk region = south_america_superregion region = andes_superregion region = north_america_superregion region = central_america_superregion }
+link = { vic2 = janub eu4 = turco_iranian eu4 = tajik eu4 = persian eu4 = saka eu4 = luri eu4 = bakhtiari  eu4 = khorasani eu4 = mervi eu4 = mazandarani eu4 = parthian eu4 = khuzi eu4 = lurish eu4 = persian eu4 = luri_colonial eu4 = qashqai eu4 = tabari eu4 = scythian eu4 = sarmatian eu4 = iazyges eu4 = uzbek eu4 = uzbehk eu4 = karluk eu4 = khazak eu4 = kirgiz eu4 = kirghiz eu4 = old_kirgiz eu4 = sogdian eu4 = tocharian eu4 = tajihk eu4 = uyghur eu4 = old_uyghur eu4 = east_persian eu4 = afghani eu4 = afghan eu4 = pashtun eu4 = kushan eu4 = baluchi eu4 = baloch eu4 = hazara eu4 = turkmeni eu4 = kurdish eu4 = sorani eu4 = shabankara eu4 = laki eu4 = kalhuri eu4 = gorani eu4 = tartar eu4 = bolghar eu4 = cuman eu4 = avar eu4 = khazar eu4 = astrakhani eu4 = bashkir eu4 = crimean eu4 = kazani eu4 = mishary eu4 = nogaybak eu4 = qasim eu4 = avar eu4 = chaghatai eu4 = mishar eu4 = nogai eu4 = tartar_colonial eu4 = hunnic eu4 = sinoturk region = oceania_superregion }
+link = { vic2 = saahi eu4 = turco_iranian eu4 = tajik eu4 = persian eu4 = saka eu4 = luri eu4 = bakhtiari  eu4 = khorasani eu4 = mervi eu4 = mazandarani eu4 = parthian eu4 = khuzi eu4 = lurish eu4 = persian eu4 = luri_colonial eu4 = qashqai eu4 = tabari eu4 = scythian eu4 = sarmatian eu4 = iazyges eu4 = uzbek eu4 = uzbehk eu4 = karluk eu4 = khazak eu4 = kirgiz eu4 = kirghiz eu4 = old_kirgiz eu4 = sogdian eu4 = tocharian eu4 = tajihk eu4 = uyghur eu4 = old_uyghur eu4 = east_persian eu4 = afghani eu4 = afghan eu4 = pashtun eu4 = kushan eu4 = baluchi eu4 = baloch eu4 = hazara eu4 = turkmeni eu4 = kurdish eu4 = sorani eu4 = shabankara eu4 = laki eu4 = kalhuri eu4 = gorani eu4 = tartar eu4 = bolghar eu4 = cuman eu4 = avar eu4 = khazar eu4 = astrakhani eu4 = bashkir eu4 = crimean eu4 = kazani eu4 = mishary eu4 = nogaybak eu4 = qasim eu4 = avar eu4 = chaghatai eu4 = mishar eu4 = nogai eu4 = tartar_colonial eu4 = hunnic eu4 = sinoturk region = niger_region region = guinea_region region = central_africa_region region = sahel_region region = horn_of_africa_region region = east_africa_region region = kongo_region region = south_africa_region }
 link = { vic2 = tajik eu4 = persian region = central_asia_region }
 link = { vic2 = tajik eu4 = tajik eu4 = sogdian eu4 = tajihk }
 link = { vic2 = tocharian eu4 = tocharian }
-link = { vic2 = persian eu4 = turco_iranian eu4 = persian eu4 = saka eu4 = luri eu4 = khorasani eu4 = mervi eu4 = mazandarani eu4 = parthian eu4 = khuzi eu4 = lurish eu4 = luri_colonial eu4 = qashqai }
+link = { vic2 = persian eu4 = khwarezmian eu4 = turco_iranian eu4 = persian eu4 = saka eu4 = luri eu4 = bakhtiari eu4 = khorasani eu4 = mervi eu4 = mazandarani eu4 = parthian eu4 = khuzi eu4 = lurish eu4 = luri_colonial eu4 = qashqai eu4 = deilami }
 link = { vic2 = sarmatian eu4 = sarmatian eu4 = iazyges eu4 = budinian eu4 = iazyx eu4 = roxolanian eu4 = scolotian }
 link = { vic2 = pashtun eu4 = east_persian eu4 = afghani eu4 = tabari eu4 = afghan eu4 = kushan eu4 = pashtun }
-link = { vic2 = baluchi eu4 = baluchi eu4 = baloch }
+link = { vic2 = baluchi eu4 = baluchi eu4 = baloch eu4 = garmsiri }
 link = { vic2 = elamite eu4 = elamite }
 link = { vic2 = indo_parthian eu4 = indo_parthian }
 
@@ -505,7 +509,7 @@ link = { vic2 = kirgiz eu4 = kirgiz eu4 = kirghiz eu4 = old_kirgiz }
 link = { vic2 = siberian eu4 = siberian eu4 = chukchi eu4 = nenet eu4 = nivkh eu4 = selkup eu4 = yeniseian eu4 = tuvan }
 link = { vic2 = yakut eu4 = yakut eu4 = yukagyr eu4 = buryat eu4 = tungus eu4 = daur eu4 = eveni eu4 = evenki eu4 = jurchen eu4 = oroqen eu4 = yukaghir }
 link = { vic2 = tatar eu4 = sabir eu4 = hunnic eu4 = tartar eu4 = bolghar eu4 = cuman eu4 = avar eu4 = khazar eu4 = astrakhani eu4 = bashkir eu4 = crimean eu4 = kazani eu4 = mishary eu4 = nogaybak eu4 = qasim eu4 = chaghatai eu4 = avar eu4 = tartar_colonial eu4 = hunnic eu4 = sinoturk  eu4 = nogai eu4 = chuvash }
-link = { vic2 = kurdish eu4 = kurdish eu4 = gorani }
+link = { vic2 = kurdish eu4 = kurdish eu4 = gorani eu4 = kalhuri eu4 = laki eu4 = shabankara eu4 = sorani eu4 = zaza }
 link = { vic2 = uighur eu4 = uyghur eu4 = old_uyghur }
 
 # Central American - zapotek, tarascan, mayan, nahua
@@ -715,6 +719,8 @@ link = { vic2 = somali eu4 = somali eu4 = cushitic_colonial }
 link = { vic2 = harari eu4 = harari }
 link = { vic2 = oromo eu4 = ethiopian eu4 = oromo }
 link = { vic2 = afar eu4 = afar }
+link = { vic2 = per_sheklesh eu4 = per_sheklesh }
+link = { vic2 = niwt_ipt eu4 = niwt_ipt }
 
 # The Congo - bakongo, luba, lunda, mbundu
 link = { vic2 = mongo eu4 = kuba eu4 = yaka provinceid = 1797 } # Northern Congo Basin
@@ -767,7 +773,20 @@ link = { vic2 = old_burgundian eu4 = old_burgundian }
 link = { vic2 = wigazan eu4 = wigazan }
 link = { vic2 = anglo_suebi eu4 = anglo_suebi }
 link = { vic2 = indo_germanic eu4 = indo_germanic }
-link = { vic2 = assyrian eu4 = babylonian eu4 = syriac eu4 = assyrian eu4 = chaldean eu4 = cardukoi }
+link = { vic2 = assyrian eu4 = babylonian eu4 = syriac eu4 = assyrian eu4 = chaldean eu4 = cardukoi eu4 = eblaite }
+link = { vic2 = sumerian eu4 = sumerian }
+
+#Pre-Greek
+link = { vic2 = pelasgian eu4 = pelasgian }
+link = { vic2 = minoan eu4 = minoan }
+link = { vic2 = cycladic eu4 = cycladic }
+
+#Pre-Anatolian
+link = { vic2 = hatti eu4 = hatti }
+
+#Hurro-Urartian
+link = { vic2 = hurrian_culture eu4 = hurrian_culture }
+link = { vic2 = gutian eu4 = gutian }
 
 # Animals / Non-humans
 link = { vic2 = polar_bears eu4 = jan_mayenese eu4 = bear }

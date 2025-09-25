@@ -14,12 +14,12 @@ void mappers::CultureGroupsManager::initForEU4()
 	Log(LogLevel::Info) << "Parsing Cultures and Culture Groups";
 	registerKeys();
 
-	for (const auto& cultureFile: commonItems::GetAllFilesInFolder(theConfiguration.getEU4Path() + "/common/cultures/"))
-		parseFile(theConfiguration.getEU4Path() + "/common/cultures/" + cultureFile);
+	for (const auto& cultureFile: commonItems::GetAllFilesInFolder(theConfiguration.getEU4Path() / "common/cultures"))
+		parseFile(theConfiguration.getEU4Path() / "common/cultures" / cultureFile);
 
 	for (const auto& mod: theConfiguration.getMods())
-		for (const auto& cultureFile: commonItems::GetAllFilesInFolder(mod.path + "/common/cultures/"))
-			parseFile(mod.path + "/common/cultures/" + cultureFile);
+		for (const auto& cultureFile: commonItems::GetAllFilesInFolder(mod.path / "common/cultures"))
+			parseFile(mod.path / "common/cultures" / cultureFile);
 
 	clearRegisteredKeywords();
 }

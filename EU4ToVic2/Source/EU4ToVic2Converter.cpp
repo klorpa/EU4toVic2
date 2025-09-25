@@ -28,12 +28,12 @@ void convertEU4ToVic2(const commonItems::ConverterVersion& converterVersion)
 
 void deleteExistingOutputFolder()
 {
-	const auto outputFolder = "output/" + theConfiguration.getOutputName();
+	const auto outputFolder = "output" / theConfiguration.getOutputName();
 	if (commonItems::DoesFolderExist(outputFolder))
 	{
-		if (!commonItems::DeleteFolder(outputFolder))
+		if (!std::filesystem::remove_all(outputFolder))
 		{
-			throw std::runtime_error("Could not delete pre-existing output folder: output/" + theConfiguration.getOutputName());
+			throw std::runtime_error("Could not delete pre-existing output folder: output/" + theConfiguration.getOutputName().string());
 		}
 	}
 }
